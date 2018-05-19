@@ -4,14 +4,21 @@ function getIt(){
     alert("Hey!");
   });
 }
+
 function frameIt(){
 return $('img').on('load', function(){
   $('img').addClass('tasty');
 });
 }
-function pressIt(){
 
+function pressIt(){
+return $('document').on('keydown', function(key){
+  if(key.which == 71){
+    alert(key ' is pressed');
+  }
+});
 }
+
 function submitIt(){
 
 }
