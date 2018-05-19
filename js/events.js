@@ -12,7 +12,7 @@ return $('img').on('load', function(){
 }
 
 function pressIt(){
-  return $('document').on('keydown', function(key){
+  return $(document).on('keydown', function(key){
     if(key.which == 71){
       alert('G key is pressed');
     }
