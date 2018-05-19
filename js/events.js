@@ -20,7 +20,11 @@ function pressIt(){
 }
 
 function submitIt(){
-
+return $('form').on('submit', function(){
+  if($('input:first').val() === 'correct'){
+    alert('Your form is going to be submitted now.');
+  }
+});
 }
 
 $(document).ready(function(){
