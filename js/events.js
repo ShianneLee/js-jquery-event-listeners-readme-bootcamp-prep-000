@@ -25,6 +25,7 @@ return $('form').on('submit', function(){
     alert('Your form is going to be submitted now.');
     return;
   }
+  alert('you entered the wrong value');
 });
 }
 
